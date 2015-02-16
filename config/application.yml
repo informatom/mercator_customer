@@ -1,8 +1,5 @@
-staging_database_user: "TODO!"
-
-staging_database_password: "TODO!"
-
-smtp_domain: "informatom.com"
+smtp_domain: "TODO!"
+# example: smtp.mydomain.com"
 
 secret_token: "TODO!"
 # example: "a4e24a41040f0e1ea108a0d4a25c21d680bfa27b9411613a888fc92bea258f179f62c49ed02ab2a6a7f455687891841bb9e161adaa3c19d61607968710f28537"
