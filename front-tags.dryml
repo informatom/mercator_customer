@@ -1,0 +1,22 @@
+<extend tag="page">
+  <old-page merge nav-location="sub">
+    <navbar: param>
+      <admin/>
+      <message-subscription />
+      <div class="container navbar">
+        <br/>
+        <div class="row">
+          <div class="col-lg-5">
+            <live-search/>
+          </div>
+          <div class="col-lg-7 text-right">
+            <a href="/">Home</a> | <language-selector-plain /> | <greeter /> |
+            <if test="&current_user.surname == 'Gast'"><a href="/switch">Anmelden</a></if>
+            <else><a href="/logout">Abmelden</a></else>
+          </div>
+          <basket-info />
+        </div>
+      </div>
+    </navbar:>
+  </old-page>
+</extend>

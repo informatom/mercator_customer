@@ -1,0 +1,9 @@
+# Environment [development, test, production]
+development:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  database: mercator-demo
+  pool: 5
+  username: <%= CONFIG[:production_database_user] %>
+  password: <%= CONFIG[:production_database_password] %>
