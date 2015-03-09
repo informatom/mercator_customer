@@ -14,7 +14,7 @@
             <if test="&current_user.surname == 'Gast'"><a href="/switch">Anmelden</a></if>
             <else><a href="/logout">Abmelden</a></else>
           </div>
-          <basket-info />
+          <basket-info /><br/><br/>
         </div>
       </div>
     </navbar:>
