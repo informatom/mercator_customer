@@ -17,3 +17,9 @@ exception_notification: "TODO!"
 
 system_name: "TODO!"
 # example: "DEMO: demo.mercator.mydomain.com"
+
+system_key: "TODO!"
+# You can request a key from mercator@informatom.com
+
+system_id: "TODO!"
+# You can request a key from mercator@informatom.com
