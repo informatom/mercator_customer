@@ -104,6 +104,7 @@ Mercator::Application.routes.draw do
     post   'front/delete_folder/:id'          => 'front#delete_folder'
     post   'front/content_element'            => 'front#content_element'
     delete 'front/assignment/:id'             => 'front#delete_assignment'
+    post   'front/set_seleted_content_element/:id' => 'front#set_seleted_content_element'
   end
 
   get 'users/:id/reset_password_from_email/:key' => 'users#reset_password', :as => 'reset_password_from_email'
