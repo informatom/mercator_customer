@@ -123,6 +123,7 @@ Mercator::Application.routes.draw do
 
   post 'conversations/refresh' => 'conversations#refresh'
   post 'offers/refresh' => 'offers#refresh'
+  post 'sales/offers/refresh' => 'sales/offers#refresh'
   post 'orders/refresh' => 'orders#refresh'
   post 'sales/conversations/refresh' => 'sales/conversations#refresh'
   post 'sales/refresh' => 'sales/front#refresh'
