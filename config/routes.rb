@@ -18,6 +18,9 @@ Mercator::Application.routes.draw do
   get 'contentmanager' => 'contentmanager/front#index', :as => 'contentmanager_front'
   get 'productmanager' => 'productmanager/front#index', :as => 'productmanager_front'
 
+  get 'videochat' => "videochat#show"
+  get 'videochat/:id/pickup' => "videochat#pickup"
+
   namespace :sales do
     resources :conversations do
       member do
@@ -129,6 +132,7 @@ Mercator::Application.routes.draw do
   post 'sales/refresh' => 'sales/front#refresh'
   post 'sales' => 'sales/front#index'
   post 'sales/conversations/:id/do_upload' => 'sales/conversations#do_upload'
+  post 'sales/conversations/:id/typing' => 'sales/conversations#typing'
 
   post 'categories/refresh' => 'categories#refresh'
   post 'products/refresh' => 'products#refresh'
