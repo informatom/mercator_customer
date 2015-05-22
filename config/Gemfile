@@ -75,7 +75,7 @@ end
 
 gem 'try_to'                                          # checks for methods existance and avoids dumps
 gem 'friendly_id', '~> 5.0.0'                         # Friendlier URLs for webpages
-gem 'codemirror-rails'                                # Code Editor
+gem 'codemirror-rails', '~> 5.2.0'                    # Code Editor
 
 gem "ember-rails"                                     # Ember - Rails Integration
 gem "ember-source"                                    # Ember Asset Handling
