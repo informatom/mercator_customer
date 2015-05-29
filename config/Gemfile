@@ -39,7 +39,6 @@ gem 'acts-as-taggable-on', '~> 3.4'                   # tagging
 
 gem "messengerjs-rails"                               # Messenger Javascript Framework assets
 gem 'traco'                                           # model attribute translations
-gem 'turbolinks'                                      # Exchanges only body content lia ajax call on reload
 gem 'jbuilder', '~> 1.2'                              # a simple DSL for declaring JSON structures
 
 gem 'roo'                                             # more sophisticated Excel spreadsheet generation
