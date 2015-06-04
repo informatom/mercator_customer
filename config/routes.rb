@@ -103,8 +103,6 @@ Mercator::Application.routes.draw do
     get    'front/get_thumbnails/:id'         => 'front#get_thumbnails'
     post   'front/update_page_content_element_assignment/:id' => 'front#update_page_content_element_assignment'
     post   'front/update_content_element/:id' => 'front#update_content_element'
-    post   'front/folder'                     => 'front#folder'
-    post   'front/delete_folder/:id'          => 'front#delete_folder'
     post   'front/content_element'            => 'front#content_element'
     delete 'front/assignment/:id'             => 'front#delete_assignment'
     post   'front/set_seleted_content_element/:id' => 'front#set_seleted_content_element'
