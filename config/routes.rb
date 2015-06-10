@@ -53,6 +53,7 @@ Mercator::Application.routes.draw do
     post   'front/update_categories'     => 'front#update_categories'
     delete 'front/category/:id'          => 'front#delete_category'
     post   'front/update_categorization' => 'front#update_categorization'
+    post   'front/update_categorization_order' => 'front#update_categorization_order'
 
     get    'property_manager/index/:id'                    => 'property_manager#index', :as => 'property_manager'
     get    'property_manager/show_valuetree/:id'           => 'property_manager#show_valuetree'
