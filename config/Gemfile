@@ -92,4 +92,4 @@ gem 'podlove-web-player-rails'                        # HTML5 Audio Player
 gem "twitter"                                         # Twitter Posts
 gem 'htmlentities'                                    # decoding HTML entities
 gem "rails_autolink"                                  # auto_link helper removed from Rails 3.1
-gem 'rubyzip'                                         # Exchange for broken internal zup library
+gem 'rubyzip', "1.1.7"                                # Exchange for broken internal zip library
