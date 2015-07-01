@@ -11,8 +11,8 @@
           </div>
           <div class="col-lg-7 text-right">
             <a href="/">Home</a> | <language-selector-plain /> | <greeter /> |
-            <if test="&current_user.surname == 'Gast'"><a href="/switch">Anmelden</a></if>
-            <else><a href="/logout">Abmelden</a></else>
+            <if test="&current_user.surname == 'Gast'"><a href="/switch"><t key="hobo.actions.login"/></a></if>
+            <else><a href="/logout"><t key="hobo.actions.logout"/></a></else>
           </div>
           <basket-info /><br/><br/>
         </div>
