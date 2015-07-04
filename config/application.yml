@@ -1,25 +1,25 @@
-smtp_domain: "TODO!"
+smtp_domain: "SETME!"
 # example: smtp.mydomain.com"
 
-secret_token: "TODO!"
+secret_token: "SETME!"
 # example: "a4e24a41040f0e1ea108a0d4a25c21d680bfa27b9411613a888fc92bea258f179f62c49ed02ab2a6a7f455687891841bb9e161adaa3c19d61607968710f28537"
 
-secret_key_base: "TODO!"
+secret_key_base: "SETME!"
 # example: "3141592653144"
 
-faye_secret_token: "TODO!"
+faye_secret_token: "SETME!"
 # example: "b90bf8ef08ea1ed350b49d74fa002602e0fd8ad5364ba9b04a0316d7a632839b"
 
 mesonic: "off"
 
-exception_notification: "TODO!"
+exception_notification: "SETME!"
 # example: "service@mydomain.com"
 
-system_name: "TODO!"
+system_name: "SETME!"
 # example: "DEMO: demo.mercator.mydomain.com"
 
-system_key: "TODO!"
+system_key: "SETME!"
 # You can request a key from mercator@informatom.com
 
-system_id: "TODO!"
+system_id: "SETME!"
 # You can request a key from mercator@informatom.com
