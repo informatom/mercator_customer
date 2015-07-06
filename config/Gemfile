@@ -53,8 +53,9 @@ gem "squeel"                                          # active record improvemen
 gem 'whenever', :require => false                     # cronjob management
 gem 'private_pub'                                     # Private Pub Sub System using Faye
 gem 'wicked_pdf'                                      # Pdf Generation
-gem 'wkhtmltopdf-binary'                              # Pdf Generation
-# FIXME: Doku: Ubuntu Package is more current! install sudo apt-get install wkhtmltopdf
+# Sourceforge Package is more recent, see github docs for installation:
+# gem 'wkhtmltopdf-binary'                            # Pdf Generation
+
 gem "searchkick"                                      # Elastic Search integration
 gem 'delayed_job_active_record'                       # asynchronous Jobs
 gem "daemons"                                         # to daemonize delayed_job
