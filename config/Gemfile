@@ -76,9 +76,6 @@ end
 gem 'try_to'                                          # checks for methods existance and avoids dumps
 gem 'friendly_id', '~> 5.0.0'                         # Friendlier URLs for webpages
 gem 'codemirror-rails', '~> 5.2.0'                    # Code Editor
-
-gem "active_model_serializers"                        # JSON serialization, easy configuration for Ember
-
 gem 'exception_notification'                          # exception_notification via e-mail
 gem 'awesome_print'                                   # nice, colored object representations
 
