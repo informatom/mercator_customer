@@ -21,13 +21,7 @@ Mercator::Application.routes.draw do
   get 'videochat' => "videochat#show"
   get 'videochat/:id/pickup' => "videochat#pickup"
 
-  namespace :sales do
-    resources :conversations do
-      member do
-        get 'take'
-      end
-    end
-  end
+  get "sales/conversations/:id/take" => "sales/conversations#take", :as => "take_sales_conversation"
 
   namespace :contracting do
     resources :toners do
