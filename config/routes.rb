@@ -24,12 +24,15 @@ Mercator::Application.routes.draw do
   get "sales/conversations/:id/take" => "sales/conversations#take", :as => "take_sales_conversation"
 
   namespace :contracting do
-    resources :toners do
-      collection do
-        get 'upload'
-        post 'do_upload'
-      end
-    end
+    get 'toners/upload' => 'toners#upload'
+    post 'do_upload'    => 'toners#do_upload'
+
+    post   'contracts/manage'          => 'contracts#manage'
+    delete 'contract/delete/:id'       => 'contracts#delete'
+    post   'contractitems/manage'      => 'contractitems#manage'
+    delete 'contractitem/delete/:id'   => 'contractitems#delete'
+    post   'consumableitems/manage'    => 'consumableitems#manage'
+    delete 'consumableitem/delete/:id' => 'consumableitems#delete'
   end
 
   namespace :admin do
