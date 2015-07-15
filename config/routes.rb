@@ -25,7 +25,7 @@ Mercator::Application.routes.draw do
 
   namespace :contracting do
     get 'toners/upload' => 'toners#upload'
-    get 'do_upload'    => 'toners#do_upload'
+    post 'toners/do_upload'    => 'toners#do_upload'
 
     post   'contracts/manage'          => 'contracts#manage'
     delete 'contract/delete/:id'       => 'contracts#delete'
