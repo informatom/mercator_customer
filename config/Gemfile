@@ -42,7 +42,7 @@ gem 'traco'                                           # model attribute translat
 gem 'jbuilder', '~> 1.2'                              # a simple DSL for declaring JSON structures
 
 gem 'roo'                                             # more sophisticated Excel spreadsheet generation
-gem 'sass-rails', '~> 4.0.0'                          # Sass support
+gem 'sass-rails', '~> 5.0.3'                          # Sass support
 gem "less-rails"                                      # Less support
 gem 'coffee-rails', '~> 4.0.0'                        # Coffeescript support
 gem 'therubyracer', :platforms => :ruby               # Javascript engine
