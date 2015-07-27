@@ -129,6 +129,7 @@ Mercator::Application.routes.draw do
   post 'sales' => 'sales/front#index'
   post 'sales/conversations/:id/do_upload' => 'sales/conversations#do_upload'
   post 'sales/conversations/:id/typing' => 'sales/conversations#typing'
+  post 'conversations/:id/typing_customer' => 'conversations#typing_customer'
 
   post 'categories/refresh' => 'categories#refresh'
   post 'products/refresh' => 'products#refresh'
