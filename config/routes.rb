@@ -31,6 +31,7 @@ Mercator::Application.routes.draw do
     delete 'contract/delete/:id'       => 'contracts#delete'
     post   'contractitems/manage'      => 'contractitems#manage'
     delete 'contractitem/delete/:id'   => 'contractitems#delete'
+    post   'contractitems/:id/do_upload' => 'contractitems#do_upload'
     post   'consumableitems/manage'    => 'consumableitems#manage'
     delete 'consumableitem/delete/:id' => 'consumableitems#delete'
   end
