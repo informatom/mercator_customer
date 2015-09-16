@@ -67,6 +67,7 @@ gem "naught"                                          # Null Object library
 gem "i18n-js", :git => "https://github.com/fnando/i18n-js"  # Javascript Internationalization
 gem 'ahoy_matey'                                      # User tracking
 gem 'activeuuid', '>= 0.5.0'
+gem "memoist"                                         # Memoizing methods
 
 group :staging do
 #  gem "mercator_mesonic", path:"vendor/engines/mercator_mesonic" # Engine for integrating Mesonic ERP System
