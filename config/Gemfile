@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.13'                                  # Web applitation framework
+gem 'rails', '4.2.5'                                  # Web applitation framework
 gem 'mysql2'                                          # MYSQL Database Adapter
 gem 'tiny_tds'                                        # A modern, simple and fast FreeTDS library for Ruby using DB-Library
-gem 'activerecord-sqlserver-adapter', '~> 4.0'        # MSSQL server database connector
+gem 'activerecord-sqlserver-adapter', '~> 4.2'        # MSSQL server database connector
 
 gem 'jquery-rails',                                   # JQuery asset handling
 gem 'jquery-ui-rails'
 gem "protected_attributes"
 gem 'valvat'                                          # European Vat Number Validation
 
-gem 'hobo', :git => 'https://github.com/Hobo/hobo.git'  # web application meta framework from Github
+gem "hobo", "= 2.2.4"                                 # web application meta framework
 gem "hobo_will_paginate"                              # pagination support
 gem "hobo_bootstrap", path:"vendor/gems/hobo_bootstrap"
-gem "hobo_clean_admin", "2.1.1"
+gem "hobo_clean_admin", "2.2.4"
 
 gem 'bootswatch-rails'                                # Bootstrap Bootswatch themes
-gem "hobo_jquery_ui", "2.1.1"                         # JQuery UI asser handling
+gem "hobo_jquery_ui", "2.2.4"                         # JQuery UI asser handling
 
 gem "hobo_bootstrap_ui", path:"vendor/gems/hobo_bootstrap_ui"
 gem "hobo_w2ui", path:"vendor/gems/hobo_w2ui"         # w2ui integration
@@ -69,18 +69,12 @@ gem 'ahoy_matey'                                      # User tracking
 gem 'activeuuid', '>= 0.5.0'
 gem "memoist"                                         # Memoizing methods
 
-group :staging do
-#  gem "mercator_mesonic", path:"vendor/engines/mercator_mesonic" # Engine for integrating Mesonic ERP System
-#  gem "mercator_legacy_importer", path:"vendor/engines/mercator_legacy_importer"# Engine for importing Legacy Data
-end
-
 gem 'try_to'                                          # checks for methods existance and avoids dumps
 gem 'friendly_id', '~> 5.0.0'                         # Friendlier URLs for webpages
 gem 'codemirror-rails', '~> 5.2.0'                    # Code Editor
 gem 'exception_notification'                          # exception_notification via e-mail
 gem 'awesome_print'                                   # nice, colored object representations
 
-gem 'faker'                                           # creating (faking) demo data
 gem "RedCloth"                                        # Textile rendering
 gem "redcarpet"                                       # Markdown rendering
 gem "truncate_html"                                   # Truncates HTML closing tags
@@ -90,3 +84,10 @@ gem "twitter"                                         # Twitter Posts
 gem 'htmlentities'                                    # decoding HTML entities
 gem "rails_autolink"                                  # auto_link helper removed from Rails 3.1
 gem 'rubyzip', "1.1.7"                                # Exchange for broken internal zip library
+gem "jquery-fileupload-rails"                         # Drag and Drop Uploading
+
+gem "dynamic_sitemaps"                                # Google Sitemap generation
+gem "memoist"                                         # Memoizing methods
+
+gem 'sprockets-rails', '2.3.3'                        # Later versions cause an issue with asset compilation !
+gem 'responders', '2.1.0'                             # Later versions cause an issue with protected method `render' called for
